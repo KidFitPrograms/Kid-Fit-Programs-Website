@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid Fit Programs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero {
+            background: url('kids-exercising.jpg') no-repeat center center/cover;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .cta-button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background: #45a049;
+        }
+        footer {
+            background: #f1f1f1;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kid Fit Programs</h1>
+    <p>Eradicating Childhood Obesity Through Sustainable and Enjoyable Exercise</p>
+</header>
+
+<div class="hero">
+    <div>
+        <h1>Healthy Kids, Healthy Futures</h1>
+        <p>Join us in tackling childhood obesity with movement, nutrition, and education.</p>
+        <a href="#get-involved" class="cta-button">Get Involved</a>
+    </div>
+</div>
+
+<div class="container">
+    <section>
+        <h2>About Kid Fit</h2>
+        <p>Kid Fit is a 501(c)(3) organization dedicated to eradicating childhood obesity through a sustainable and enjoyable exercise initiative. We empower children, families, and communities to address factors leading to obesity and related health issues such as type 2 diabetes, high blood pressure, joint disorders, and low self-esteem. Together, we can do better for our children!</p>
+    </section>
+
+    <section>
+        <h2>What We Do</h2>
+        <ul>
+            <li>Provide full or partial scholarship funding for youth athletic programs.</li>
+            <li>Conduct fun fitness classes for parents and kids.</li>
+            <li>Organize after-school and weekend physical activity sessions.</li>
+        </ul>
+        <p>Preventing obesity during childhood is critical because habits formed in youth last into adulthood. Kid Fit incorporates physical movement, proper nutrition, and wellness education to lay the groundwork for healthy lifestyles.</p>
+    </section>
+
+    <section id="get-involved">
+        <h2>How You Can Help</h2>
+        <p>You can support Kid Fit Programs in several ways:</p>
+        <ul>
+            <li>Donate to fund scholarships and programs.</li>
+            <li>Volunteer your time to assist in fitness classes and events.</li>
+            <li>Spread awareness about our mission and programs in your community.</li>
+        </ul>
+        <a href="#" class="cta-button">Donate Now</a>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Kid Fit Programs | All Rights Reserved</p>
+    <p><a href="#">Contact Us</a> | <a href="#">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
